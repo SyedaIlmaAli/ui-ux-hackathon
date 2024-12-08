@@ -1,9 +1,11 @@
-<div>
-  <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet"></link>
-</div>;
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Link from "next/link";
+
+<div>
+  <Link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet"></Link>
+</div>;
 
 const geistSans = localFont({
   src: "./fonts/ArchivoNarrow-Medium.ttf",
