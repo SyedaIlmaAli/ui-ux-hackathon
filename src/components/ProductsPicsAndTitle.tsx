@@ -5,7 +5,7 @@ const ProductsPicsAndTitle = () => {
   return (
     <div>
       {/* Desktop View */}
-      <div className="hidden md:block relative my-5 mx-auto w-[1200px] h-[400px]">
+      <div className="hidden xl:block relative mx-auto w-[1200px] h-[400px]">
         <div className="absolute left-[42px] top-[86px] h-full">
           <ProductCard
             title="The Dandy chair"
@@ -44,7 +44,7 @@ const ProductsPicsAndTitle = () => {
       </div>
 
       {/* Medium View (md screens) */}
-      <div className="md:hidden flex flex-wrap justify-center gap-6 my-5 mx-4">
+      <div className="xl:hidden  flex flex-wrap justify-center gap-6 my-5 mx-4">
         <div className="flex justify-center items-center">
           <ProductCard
             title="The Dandy chair"

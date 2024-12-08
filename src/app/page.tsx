@@ -2,7 +2,7 @@ import ProductsPicsAndTitle from "@/components/ProductsPicsAndTitle";
 
 export default function Home() {
   return (
-    <div className="bg-myBlack mt-9">
+    <div className="bg-myBlack mt-9 flex justify-center items-center flex-col">
       {/* First Heading */}
       <div className="flex justify-center items-center">
         <h2 className="capitalize font-sans text-myViolet font-normal md:font-medium md:text-[51.7px] text-[31.7px]">
@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       {/* Product Section */}
-      <div className="flex justify-center items-center mt-10">
+      <div className="flex justify-center items-center mt-8">
         <ProductsPicsAndTitle />
       </div>
     </div>
